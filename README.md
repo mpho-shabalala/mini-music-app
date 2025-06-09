@@ -123,8 +123,7 @@ This project is a mini music player app that allows users to browse genres and s
 
 ## License
 
-MIT License © [Your Name]
+MIT License © [Mpho shabalala]
 
 ---
 
-Feel free to update this README as you build and enhance your project!
