@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/utilities.css">
+    <title>Mini Music Player App</title>
+</head>
+<body id="music-player-app">
+    <header id="music-player-app-header">
+        <div class="container">
+            <h2>Mini Music Player App</h2>
+        </div>
+    </header>
+    <main class="container">
+        <div class="genre-section">
+            <ul id="genres_list">
+                <!-- injected by js -->
+            </ul>
+        </div>
+        <div id="music-list-section">
+            <form id="search-form">
+                <input type="text" placeholder="Search for songs, artists and genres...">
+            </form>
+            <div id="music-catalog">
+                <p>Songs</p>
+                <ul id="song-list">
+                    <!-- injected by js -->
+                </ul>
+            </div>
+            <div id="audio-element-div">
+                <div id="navigation">
+                    <button id="prev-song" class="media-btn"><img class="media-img" src="../RESOURCES/media-back.png" alt=""></button>
+                    <button id="stop-song" class="media-btn"><img class="media-img" src="../RESOURCES//media-stop.png" alt=""></button>
+                    <button id="next-song" class="media-btn"><img class="media-img" src="../RESOURCES/media-forward.png" alt=""></button>
+                </div>
+                <audio autoplay id="audio-element" controls='true' src=""></audio>
+                    <button id="song-info" class="media-btn">
+                        <img class="media-img" id="song-info-img" src="../RESOURCES//arrowhead-up.png" alt="">
+                    </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script type="module" src="../Application code/app.js"></script>
+</html>
